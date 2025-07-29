@@ -1,13 +1,5 @@
-import {
-  Heading,
-  SimpleGrid,
-  Stack,
-  Button,
-  Text,
-  Link,
-} from '@chakra-ui/react';
+import { Heading, Stack, Text, Link } from '@chakra-ui/react';
 import { projectsData, ProjectsType } from '@/config/site.config';
-import Image from 'next/image';
 
 const ProjectCard = (project: ProjectsType) => {
   return (

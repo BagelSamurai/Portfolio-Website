@@ -1,2 +1,5 @@
-# 3D Model
-"Space Ame Camping - Amelia Watson Hololive" (https://skfb.ly/o7Jww) by Seafoam is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+
+# Portfolio website
+This is my personal portfolio website created using Next.js and Chakra UI.
+
+# Images

@@ -150,10 +150,9 @@ export type ProjectsType = {
   title: string;
   description: string;
   href: string;
-  img: string;
 };
 
-export const projectsData: Projects[] = [
+export const projectsData: ProjectsType[] = [
   {
     title: 'Terminalify',
     description:

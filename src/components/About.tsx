@@ -4,7 +4,7 @@ import { aboutSocials, siteConfig } from '@/config/site.config';
 import { Button, Heading, Stack, Text, Center, Link } from '@chakra-ui/react';
 import { Model } from './model/model';
 import { Canvas } from '@react-three/fiber';
-import { Environment, Float, Lightformer } from '@react-three/drei';
+import { Environment, Lightformer } from '@react-three/drei';
 export default function About() {
   useEffect(() => {
     useGLTF.preload('/space_ame_camping_-_amelia_watson_hololive.glb');
