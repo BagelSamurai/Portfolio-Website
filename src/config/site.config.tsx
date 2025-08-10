@@ -154,10 +154,16 @@ export type ProjectsType = {
 
 export const projectsData: ProjectsType[] = [
   {
-    title: 'Terminalify',
+    title: 'MRI Digital Twin',
     description:
-      'Engineered a terminal based lightweight music player in Rust, and the Spotify API to deliver a minimal-resource alternative to mainstream music applications. ',
-    href: 'https://github.com/BagelSamurai/',
+      'Engineered a 1D MRI digital twin in MATLAB under faculty mentorship to model Bloch equations, T1/T2 relaxation, and FID signals, enhancing the simulation accuracy for MRI research',
+    href: '',
+  },
+  {
+    title: 'Ride Share App',
+    description:
+      'Developed a real-time, event-driven backend in Go using RabbitMQ for messaging and MongoDB database, Established a full CI/CD pipeline to Google Cloud (GCP) with Docker and Kubernetes ',
+    href: 'https://github.com/BagelSamurai/Ride-Share-App/tree/main',
   },
   {
     title: 'SQL Data Warehouse and Analysis',
@@ -166,10 +172,10 @@ export const projectsData: ProjectsType[] = [
     href: 'https://github.com/BagelSamurai/SQL-Date-Warehouse-and-Analysis',
   },
   {
-    title: 'Clinic Management System',
+    title: 'Patient Management System',
     description:
-      'Architected a backend service in Spring Boot, designing the complete system architecture, data schemas, and a secure RESTful API to handle confidential patient information. Implemented a dual-database strategy using both SQL and NoSQL to optimize data storage and retrieval, and containerized the microservice with Docker to ensure streamlined, portable deployment',
-    href: 'https://github.com/BagelSamurai/Smart-Clinic-Management-System/tree/main',
+      'Architected event-driven microservices using Java (Spring Boot), gRPC, and Apache Kafka. Improved system resilience and performance with Redis, Resilience4j, and Spring Cloud Gateway. Deployed to AWS ECS with Docker & CDK and established monitoring with Prometheus & Grafana',
+    href: 'https://github.com/BagelSamurai/Patient-Management-System',
   },
   {
     title: 'Analyzing Amazon reviews using NLP',
@@ -212,15 +218,6 @@ export const worksData: WorkType[] = [
       'Evaluated Python-based assignments on topics including Pandas, Scikit-learn, and TensorFlow, providing targeted feedback to improve student code quality.',
     ],
     fromDate: '2024-08',
-    toDate: 'Present',
-  },
-  {
-    company: 'Undergraduate Researcher',
-    deliverables: [
-      // Changed from 'deliverable' to 'deliverables'
-      'Engineered a digital twin of a 1D MRI system in MATLAB under faculty guidance, accurately simulating Bloch equation dynamics, T1/T2 relaxation, and FID signal generation',
-    ],
-    fromDate: '2025-01',
     toDate: 'Present',
   },
 ];
